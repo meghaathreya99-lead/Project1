@@ -7,9 +7,12 @@
   		<methods>
   			<include name="createcontacttest"></include>
   		</methods>
-  	
   	</class>
-  
+  <class name="practicetest1.Practice1Test">
+  		<methods>
+  			<include name="createcontacttest"></include>
+  		</methods>
+  	</class>
   </classes>
  
   </test> <!-- Test -->

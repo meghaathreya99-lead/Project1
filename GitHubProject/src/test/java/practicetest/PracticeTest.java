@@ -5,10 +5,10 @@ import org.testng.annotations.Test;
 public class PracticeTest {
 @Test
 public void createcontacttest() {
-	String URL = System.getProperty("url");
-	String BROWSER = System.getProperty("browser");
-	String USERNAME = System.getProperty("username");
-	String PASSWORD = System.getProperty("password");
+	String URL = System.getProperty("url","http://uatenv.com");
+	String BROWSER = System.getProperty("browser", "chrome");
+	String USERNAME = System.getProperty("username","admin");
+	String PASSWORD = System.getProperty("password","admin");
 	System.out.println("createcontact");
 	System.out.println(URL);
 	System.out.println(BROWSER);
