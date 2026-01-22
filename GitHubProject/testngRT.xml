@@ -8,7 +8,7 @@
   			<include name="createcontacttest"></include>
   		</methods>
   	</class>
-  <class name="practicetest1.Practice1Test">
+  <class name="practicetest1.Practice1test">
   		<methods>
   			<include name="createcontacttest"></include>
   		</methods>
